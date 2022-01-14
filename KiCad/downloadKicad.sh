@@ -1,6 +1,6 @@
 #!/bin/sh
 
-FILE=$(curl --silent 'https://kicad-downloads.s3.cern.ch/?delimiter=/&prefix=windows/nightly/' | egrep -o 'kicad-msvc[a-zA-Z0-9._\-]*x86_64-lite.exe' | tail -1)
+FILE=$(curl --silent 'https://kicad-downloads.s3.cern.ch/?delimiter=/&prefix=windows/nightly/' | egrep -o 'kicad-nightly-[a-zA-Z0-9._\-]*x86_64-lite.exe' | tail -1)
 
 # Check curl success
 if [ -z "$FILE" ];	then 
