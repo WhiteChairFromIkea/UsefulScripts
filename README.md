@@ -1,3 +1,3 @@
 # UsefulScripts
 
-Useful scripts for dayly use on windows with msys2.
+Useful scripts for daily use on windows with msys2 linux subsystem installed.
