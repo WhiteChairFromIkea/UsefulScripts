@@ -35,6 +35,8 @@ if test -f "$FILE";
 	}
 fi
 
+#/n
+echo
 # download installer
 curl -L -o $FILE -C - https://kicad-downloads.s3.cern.ch/windows/nightly/$FILE
 
